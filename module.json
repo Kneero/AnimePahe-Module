@@ -1,12 +1,13 @@
 {
-  "name": "AnimePahe",
-  "version": "1.0.0",
-  "author": "MartinsGPT",
-  "language": "en",
-  "icon": "https://animepahe.com/static/img/icon/apple-touch-icon.png",
-  "url": "https://animepahe.com",
-  "classes": ["Anime"],
+  "name": "AnimePahe (ENG SUB)",
   "type": "anime",
+  "language": "en",
+  "version": "1.0.0",
+  "author": {
+    "name": "MartinsGPT",
+    "url": "https://github.com/Kneero"
+  },
+  "icon": "https://animepahe.com/static/img/icon/apple-touch-icon.png",
   "script": "https://raw.githubusercontent.com/Kneero/AnimePahe-Module/main/AnimePahe.js",
   "nsfw": false
 }
