@@ -1,22 +1,12 @@
-
 {
-  "sourceName": "AnimePahe (ENG SUB)",
-  "iconUrl": "https://animepahe.com/static/img/icon/apple-touch-icon.png",
-  "author": {
-    "name": "MartinsGPT",
-    "icon": "https://animepahe.com/static/img/icon/apple-touch-icon.png",
-    "url": "https://animepahe.com"
-  },
-  "version": "1.1.0",
-  "language": "English (SUB)",
-  "streamType": "HLS",
-  "quality": "360p / 480p",
-  "preferredQualities": ["480p", "360p"],
+  "name": "AnimePahe (ENG SUB)",
+  "author": "MartinsGPT",
+  "language": "en",
+  "icon": "https://animepahe.com/static/img/icon/apple-touch-icon.png",
+  "url": "https://animepahe.com/",
+  "classes": ["Anime"],
   "type": "anime",
-  "baseUrl": "https://animepahe.com/",
-  "searchBaseUrl": "https://animepahe.com/api?m=search&q=%s",
-  "scriptUrl": "https://raw.githubusercontent.com/Kneero/AnimePahe-Module/main/AnimePahe.js",
-  "asyncJS": true,
-  "streamAsyncJS": true,
-  "softsub": true
+  "version": "1.0.0",
+  "script": "https://raw.githubusercontent.com/Kneero/AnimePahe-Module/main/AnimePahe.js",
+  "nsfw": false
 }
